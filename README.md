@@ -36,12 +36,36 @@ I'm actively working on practice projects and preparing to start my career as an
 
 <div align="center">
 
+
+
 ![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+
+
+
+
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=databricks&logoColor=white)
+
+
+
+
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+
+
+
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+
+
+
+
 ![Power Query](https://img.shields.io/badge/Power_Query-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+
+
+
+
 ![DAX](https://img.shields.io/badge/DAX-217346?style=for-the-badge&logo=microsoft&logoColor=white)
+
+
 
 </div>
 
@@ -86,7 +110,7 @@ This animation renders automatically once a small GitHub Action is added to this
 
 1. In this repository, create the file `.github/workflows/snake.yml` with:
 
-```yaml
+\`\`\`yaml
 name: Generate Snake
 on:
   schedule:
@@ -110,13 +134,17 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
+\`\`\`
 
 2. Once the workflow runs once, add this line back into the README:
 
-```md
+\`\`\`md
+
+
 ![Snake animation](https://raw.githubusercontent.com/arunachalam-data/arunachalam-data/output/github-contribution-grid-snake.svg)
-```
+
+
+\`\`\`
 
 </details>
 
